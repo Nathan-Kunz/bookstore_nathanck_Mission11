@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 using bookstore_nathanck.infrastructure;
@@ -17,6 +18,7 @@ namespace bookstore_nathanck.Pages
             repo = temp;
             basket = b;
         }
+        
         public Basket basket { get; set; }
         public string ReturnUrl { get; set; }
 
