@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace bookstore_nathanck.Components
 {
-
+    //for the special cart icon with number of items
     public class CartSummaryViewComponent : ViewComponent
     {
         private Basket basket;
